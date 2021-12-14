@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title_AR": "كي كارد",
+    "title_EN": "Qi Card",
+    "description_AR": "تأسست QiCard في عام 2007 كمشروع مشترك بين القطاع الخاص ، ممثلاً في أنظمة الدفع الإلكترونية العراقية والقطاع الحكومي ، ويمثله أكبر بنك في البلاد ، مصرف الرافدين. تمتلك الشركة 10 سنوات من الخبرة في إصدار بطاقات التعريف البيومترية للمواطنين وتقديم الخدمات المالية الإلكترونية في العراق.",
+    "description_EN": "QiCard was established in 2007 as a joint venture between the private sector, represented by the Iraqi Electronic Payment Systems and the Governmental Sector, represented by the largest bank in the country, Rafidain Bank. The company has 10 years of experience in issuing biometric identification cards for citizens and providing electronic financial services in Iraq.",
+    "img": "qi.png",
+    "alt": "Qi Card"
+  },
+  {
+    "id": 2,
+    "title_AR": "البنك المركزي العراقي",
+    "title_EN": "Central Bank of Iraq",
+    "description_AR": "بنك المركزي العراقي. تأسس عام 1947 ، وهو نفس العام الذي انتهى فيه الاحتلال البريطاني للعراق. تتمثل الأهداف الأساسية للبنك التجاري الدولي في ضمان استقرار الأسعار المحلية وتعزيز نظام مالي مستقر قائم على السوق التنافسي.",
+    "description_EN": "The Central Bank of Iraq (CBI) . It was established in 1947, the same year in which the British occupation of Iraq was ended. CBI's primary objectives are to ensure domestic price stability and foster a stable competitive market based financial system",
+    "img": "cbi.jpeg",
+    "alt": "CBI"
+  },
+  {
+    "id": 3,
+    "title_AR": "ويستيرن يونيون",
+    "title_EN": "Western Union",
+    "description_AR": "شركة ويسترن يونيون هي شركة أمريكية للخدمات المالية متعددة الجنسيات يقع مقرها الرئيسي في دنفر ، كولورادو. تأسست عام 1851 وهي الآن ثاني أكبر مزود لتحويل الأموال في العالم.",
+    "description_EN": "The Western Union Company is an American multinational financial services company, headquartered in Denver, Colorado. Founded in 1851 and is now the second largest money transfer provider in the world.",
+    "img": "wu.jpeg",
+    "alt": "Western Union"
+  },
+  {
+    "id": 4,
+    "title_AR": "صرف رواتب الموظفين",
+    "title_EN": "Employees salaries payment",
+    "description_AR": "تأسس بنك التنمية الدولي في عام 2011 برأسمال أولي قدره 100 مليار دينار عراقي - اليوم برأس مال مدفوع قدره 250 مليار دينار عراقي (ما يعادل 210 مليون دولار أمريكي) - وسرعان ما ارتفع ليثبت مكانته بين البنوك الرائدة على الصعيدين المحلي والمحلي. على الصعيد الإقليمي ، تقديم الخدمات المصرفية التجارية لعملاء الشركات والأفراد",
+    "description_EN": "The International Development Bank was established in 2011 with an initial capital of 100 billion Iraqi Dinars - today a paid-up capital of 250 billion IQD (equivalent to 210 million US dollars) - and quickly rose to establish itself among leading banks, both locally and regionally, offering commercial banking services to both corporate and retail clients",
+    "img": "tenmia.png",
+    "alt": "IDB"
+  },
+  {
+    "id": 5,
+    "title_AR": "سويتش",
+    "title_EN": "Switch",
+    "description_AR": "تأسست شركة بوابة العراق الإلكترونية للخدمات المالية (سويتش) في عام 2016 لإجراء وتسهيل خدمات الدفع الإلكتروني في جميع أنحاء البلاد. نقدم خدماتنا للمؤسسات المالية والمصرفية والحكومية وقطاعات الأعمال المختلفة بينما نقدم للعملاء والتجار أفضل الطرق وأبسطها لتنفيذ مدفوعات إلكترونية سهلة وآمنة - في أي وقت وفي أي مكان.",
+    "description_EN": "The Iraq Electronic Gate for Financial Services Company (SWITCH) established in 2016 to conduct and facilitate e-payment services across the country. We offer our services to financial, banking, and government institutions and various business sectors while presenting consumers and merchants with the best and simplest ways to execute easy and secure e-payments – anytime, anywhere.",
+    "img": "switch.jpg",
+    "alt": "Switch"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title_AR": "بيع وشراء العملات الاجنبية",
+    "title_EN": "Buying and selling foreign exchange",
+    "img": "exchange.png",
+    "alt": "exchange"
+  },
+  {
+    "id": 2,
+    "title_AR": "حوالات داخلية",
+    "title_EN": "Internal Transfers",
+    "img": "iraqMapIn.png",
+    "alt": "iraqMapIn"
+  },
+  {
+    "id": 3,
+    "title_AR": "حوالات خارجية",
+    "title_EN": "External Transfers",
+    "img": "iraqMapOut.png",
+    "alt": "iraqMapOut"
+  },
+  {
+    "id": 4,
+    "title_AR": "صرف رواتب الموظفين",
+    "title_EN": "Employees salaries payment",
+    "img": "Component 1 – 1.png",
+    "alt": "Component"
+  },
+  {
+    "id": 5,
+    "title_AR": "شحن بطاقات الماستر كارد",
+    "title_EN": "Master card filling",
+    "img": "MasterCard_Logo.png",
+    "alt": "MasterCard"
+  }
+]

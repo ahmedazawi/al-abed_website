@@ -1,0 +1,174 @@
+.center_circle_container {
+  background: #2a447a;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0 20px;
+  opacity: 0.9;
+}
+
+.coins_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+.coins {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 0;
+}
+
+.coins > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 10vw;
+}
+.coins > div > span {
+  font-size: 1.7vw;
+  font-weight: 600;
+}
+.coins > div > img {
+  width: 1.6vw;
+  height: 1.6vw;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 5px;
+}
+.coins_sales {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  border: solid 1px white;
+  margin-bottom: 10px;
+}
+.coins_sales_header {
+  background-color: white;
+  color: #05286a;
+  padding: 10px 0;
+  width: 30%;
+  font-size: 1.7vw;
+  font-weight: 600;
+  text-align: center;
+}
+.field_one {
+  padding: 8px;
+  text-align: center;
+  width: 25%;
+  font-size: 1.7vw;
+  font-weight: 600;
+}
+.field_two {
+  padding: 8px;
+  text-align: center;
+  width: 45%;
+  font-size: 1.7vw;
+  font-weight: 600;
+}
+
+.circle_content_bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 1.7vw;
+}
+@media only screen and (max-width: 790px) {
+  .coins {
+    width: 60%;
+  }
+  .coins > div {
+    width: 13vw;
+  }
+  .coins > div > span {
+    font-size: 2vw;
+  }
+  .coins_sales_header {
+    font-size: 2vw;
+
+    padding: 5px 0;
+    width: 13vw;
+
+    font-weight: 600;
+    text-align: center;
+  }
+  .field_one {
+    padding: 5px;
+    font-size: 2vw;
+  }
+  .field_two {
+    padding: 5px;
+    font-size: 2vw;
+  }
+  .circle_content_bottom {
+    font-size: 2.5vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .center_circle_container {
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    border-radius: 10px;
+  }
+  .coins_container {
+    align-items: flex-end;
+    width: 100vw;
+  }
+  .coins {
+    justify-content: center;
+    position: relative;
+    width: 59%;
+
+    left: 0;
+  }
+  .coins > div {
+    width: 50vw;
+    justify-content: flex-start;
+  }
+
+  .coins > div > span {
+    font-size: 5vw;
+  }
+  .coins > div > img {
+    width: 5vw;
+    height: 5vw;
+    margin: 0 5px;
+  }
+
+  .coins_sales {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    border: solid 1px white;
+    margin-bottom: 10px;
+  }
+
+  .coins_sales_header {
+    width: 30%;
+    font-size: 2vh;
+  }
+  .field_one {
+    padding: 0;
+    width: 25%;
+    font-size: 2vh;
+  }
+  .field_two {
+    width: 45%;
+    font-size: 2vh;
+  }
+  .circle_content_bottom {
+    font-size: 2vh;
+  }
+}
