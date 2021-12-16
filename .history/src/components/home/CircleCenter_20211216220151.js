@@ -1,27 +1,10 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useContext } from "react";
 import styles from "../../assets/css/circle_center.module.css";
 import USDimg from "../../assets/images/USD.jpg";
 import IQDimg from "../../assets/images/IQD.jpg";
 import ContextApi from "../ContextApi";
-import axios from "axios";
 const CircleCenter = () => {
   const lang = useContext(ContextApi);
-  const [supply, setSupply] = useState();
-  const [demand, setDemand] = useState();
-  const fetchData = () => {
-    axios
-      .get("http://194.163.172.70:3002/template/alabed-exchange")
-      .then((response) => {
-        setSupply(response.data[0].data.Supply);
-        setDemand(response.data[0].data.Demand);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
-  useEffect(() => {
-    fetchData();
-  }, []);
   return (
     <div className={styles.center_circle_container}>
       <div className={styles.coins_container}>
@@ -61,9 +44,7 @@ const CircleCenter = () => {
         >
           100
         </div>
-        <div className={styles.field_two}>
-          {supply ? supply : "Loading ..."}
-        </div>
+        <div className={styles.field_two}>148,250</div>
       </div>
 
       <div
@@ -91,9 +72,7 @@ const CircleCenter = () => {
         >
           100
         </div>
-        <div className={styles.field_two}>
-          {demand ? demand : "Loading ..."}
-        </div>
+        <div className={styles.field_two}>147,250</div>
       </div>
       <div className={styles.circle_content_bottom}>
         <div>

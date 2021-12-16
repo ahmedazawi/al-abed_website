@@ -14,7 +14,7 @@ function App() {
   const [lang, setLang] = useState();
 
   useEffect(() => {
-    let myCoockie = cookieCutter.get("abed-lang");
+    let myCoockie = document.cookie.split("=")[1];
     if (myCoockie === "AR") {
       setLang("AR");
     } else if (myCoockie === "EN") {
@@ -24,7 +24,7 @@ function App() {
     }
   }, []);
   useEffect(() => {
-    cookieCutter.set("abed-lang", lang);
+    cookieCutter.set("lang", lang);
     if (lang === "AR") {
       document.body.style.direction = "rtl";
     } else {

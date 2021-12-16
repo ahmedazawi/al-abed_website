@@ -134,7 +134,7 @@ body {
 }
 
 /* humburger navbar */
-@media only screen and (max-width: 1209px) {
+@media only screen and (max-width: 1365px) {
   .home-bg-img {
     margin-top: 50px;
   }

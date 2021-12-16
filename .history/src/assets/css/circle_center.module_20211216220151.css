@@ -130,8 +130,7 @@
     position: relative;
     width: 59%;
 
-    left: -6vw;
-    right: -6vw;
+    left: 5vw;
   }
   .coins > div {
     width: 50vw;

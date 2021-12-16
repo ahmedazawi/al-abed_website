@@ -24,7 +24,7 @@ function App() {
     }
   }, []);
   useEffect(() => {
-    cookieCutter.set("abed-lang", lang);
+    cookieCutter.get("abed-lang");
     if (lang === "AR") {
       document.body.style.direction = "rtl";
     } else {

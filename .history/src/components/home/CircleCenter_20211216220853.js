@@ -3,14 +3,13 @@ import styles from "../../assets/css/circle_center.module.css";
 import USDimg from "../../assets/images/USD.jpg";
 import IQDimg from "../../assets/images/IQD.jpg";
 import ContextApi from "../ContextApi";
-import axios from "axios";
 const CircleCenter = () => {
   const lang = useContext(ContextApi);
   const [supply, setSupply] = useState();
   const [demand, setDemand] = useState();
   const fetchData = () => {
     axios
-      .get("http://194.163.172.70:3002/template/alabed-exchange")
+      .get(process.env.REACT_APP_API_KEY)
       .then((response) => {
         setSupply(response.data[0].data.Supply);
         setDemand(response.data[0].data.Demand);

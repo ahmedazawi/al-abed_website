@@ -3,7 +3,6 @@ import styles from "../../assets/css/circle_center.module.css";
 import USDimg from "../../assets/images/USD.jpg";
 import IQDimg from "../../assets/images/IQD.jpg";
 import ContextApi from "../ContextApi";
-import axios from "axios";
 const CircleCenter = () => {
   const lang = useContext(ContextApi);
   const [supply, setSupply] = useState();
