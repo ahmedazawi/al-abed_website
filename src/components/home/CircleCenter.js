@@ -10,7 +10,7 @@ const CircleCenter = () => {
   const [demand, setDemand] = useState();
   const fetchData = () => {
     axios
-      .get("http://194.163.172.70:3002/template/alabed-exchange")
+      .get("https://ur-task.com/msmar/portal/template/alabed-exchange")
       .then((response) => {
         setSupply(response.data[0].data.Supply);
         setDemand(response.data[0].data.Demand);
