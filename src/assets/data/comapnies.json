@@ -43,5 +43,14 @@
     "description_EN": "The Iraq Electronic Gate for Financial Services Company (SWITCH) established in 2016 to conduct and facilitate e-payment services across the country. We offer our services to financial, banking, and government institutions and various business sectors while presenting consumers and merchants with the best and simplest ways to execute easy and secure e-payments – anytime, anywhere.",
     "img": "switch.jpg",
     "alt": "Switch"
+  },
+  {
+    "id": 6,
+    "title_AR": "موني جرام",
+    "title_EN": "MoneyGram",
+    "description_AR": "موني جرام شركة عالمية تقدم خدمات تحويل الأموال والمدفوعات الرقمية في أكثر من 200 دولة، مع التركيز على السرعة والتقنيات الحديثة.",
+    "description_EN": "MoneyGram is a global company offering money transfer and digital payment services in over 200 countries, focusing on speed and modern technology.",
+    "img": "moneyGram.png",
+    "alt": "money Gram"
   }
 ]

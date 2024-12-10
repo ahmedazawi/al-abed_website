@@ -3,7 +3,6 @@ import styles from "../../assets/css/Cards.module.css";
 import ContextApi from "../ContextApi";
 const Card = (props) => {
   const lang = useContext(ContextApi);
-
   return (
     <div className={styles.card}>
       <img

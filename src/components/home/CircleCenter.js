@@ -6,22 +6,22 @@ import ContextApi from "../ContextApi";
 import axios from "axios";
 const CircleCenter = () => {
   const lang = useContext(ContextApi);
-  const [supply, setSupply] = useState();
-  const [demand, setDemand] = useState();
-  const fetchData = () => {
-    axios
-      .get("https://api-exchange.msmar.tech/template/alabed-exchange")
-      .then((response) => {
-        setSupply(response.data[0].data.Supply);
-        setDemand(response.data[0].data.Demand);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
-  useEffect(() => {
-    fetchData();
-  }, []);
+  const [supply, setSupply] = useState("131,000");
+  const [demand, setDemand] = useState("132,000");
+  // const fetchData = () => {
+  //   axios
+  //     .get("https://api-exchange.msmar.tech/template/alabed-exchange")
+  //     .then((response) => {
+  //       setSupply(response.data[0].data.Supply);
+  //       setDemand(response.data[0].data.Demand);
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // };
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
   return (
     <div className={styles.center_circle_container}>
       <div className={styles.coins_container}>
@@ -98,8 +98,8 @@ const CircleCenter = () => {
       <div className={styles.circle_content_bottom}>
         <div>
           {lang === "AR"
-            ? "ألاسعار غير ثابتة وقابلة للتغيير"
-            : "Prices are not fixed and changeable"}
+            ? "بيع دولار مسافرين 3000$ في جميع فروع الشركة"
+            : "Travelers Dollar Sale $3000 in all company branches"}
         </div>
 
         <div>07711111618</div>

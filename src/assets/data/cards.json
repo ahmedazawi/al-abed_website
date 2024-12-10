@@ -33,5 +33,12 @@
     "title_EN": "Master card filling",
     "img": "MasterCard_Logo.png",
     "alt": "MasterCard"
+  },
+  {
+    "id": 6,
+    "title_AR": "حولات موني جرام الدولية",
+    "title_EN": "MoneyGram International",
+    "img": "moneyGram.png",
+    "alt": "moneyGram"
   }
 ]

@@ -81,7 +81,7 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  font-size: 1.7vw;
+  font-size: 1.4vw;
 }
 @media only screen and (max-width: 790px) {
   .coins {
@@ -111,7 +111,7 @@
     font-size: 2vw;
   }
   .circle_content_bottom {
-    font-size: 2.5vw;
+    font-size: 2.3vw;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -170,6 +170,6 @@
     font-size: 2vh;
   }
   .circle_content_bottom {
-    font-size: 2vh;
+    font-size: 1.7vh;
   }
 }
