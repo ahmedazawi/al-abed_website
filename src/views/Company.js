@@ -3,6 +3,9 @@ import styles from "../assets/css/company.module.css";
 
 import data from "../assets/data/comapnies.json";
 import ContextApi from "../components/ContextApi";
+const images = require.context("../assets/images/co-page", false, /\.(png|jpe?g|svg)$/);
+
+
 const Company = () => {
   const lang = useContext(ContextApi);
   return (
@@ -16,7 +19,7 @@ const Company = () => {
             return (
               <div className={styles.card} key={el.id}>
                 <img
-                  src={require("../assets/images/co-page/" + el.img).default}
+                  src={images(`./${el.img}`)}
                   alt={el.alt}
                 />
                 <div>

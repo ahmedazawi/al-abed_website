@@ -1,12 +1,17 @@
 import React, { useContext } from "react";
 import styles from "../../assets/css/Cards.module.css";
 import ContextApi from "../ContextApi";
+
+const images = require.context("../../assets/images/cards", false, /\.(png|jpe?g|svg)$/);
+
+
 const Card = (props) => {
   const lang = useContext(ContextApi);
+
   return (
     <div className={styles.card}>
       <img
-        src={require("../../assets/images/cards/" + props.data.img).default}
+         src={images(`./${props.data.img}`)}
         alt={props.data.alt}
         width="150"
       />
